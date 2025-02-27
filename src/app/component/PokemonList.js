@@ -33,7 +33,7 @@ const PokemonList = ({ pokemonres }) => {
         onChange={(e) => setSearchPokemon(e.target.value)}
         className=" border w-[300px] px-4 py-2.5 rounded-2xl mb-3"
       />
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-4  ">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-4  text-black ">
         {currentData.length
           ? currentData?.map((item, index) => (
               <div
